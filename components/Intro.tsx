@@ -74,7 +74,7 @@ export default function Intro() {
                   className={`text-4xl sm:text-5xl md:text-6xl font-bold leading-tight ${
                     isFirstLine ? 'text-white' : 
                     isSecondLine ? 'text-gray-400' : 
-                    isThirdLine ? 'text-gray-300 font-semibold' : 
+                    isThirdLine ? 'gradient-text font-semibold' : 
                     'text-gray-300'
                   }`}
                 >

@@ -4,6 +4,7 @@ import Pillars from '@/components/Pillars'
 import Features from '@/components/Features'
 import Intro from '@/components/Intro'
 import Footer from '@/components/Footer'
+import HelpUsBuild from '@/components/HelpUsBuild'
 import SportTriad from '@/components/SportTriad'
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
       <Pillars />
       <Features />
       <Intro />
+      <HelpUsBuild />
       <SportTriad />
     </main>
   )

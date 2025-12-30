@@ -22,7 +22,7 @@ export default function Navbar() {
           isScrolled
             ? 'bg-background/80 backdrop-blur-xl border border-white/10'
             : 'bg-background/60 backdrop-blur-md border border-white/10'
-        } rounded-full px-6 py-3 shadow-lg w-[90%] md:w-[85%] lg:w-1/2`}
+        } rounded-full px-6 py-3 shadow-lg w-[90%] md:w-[80%] lg:w-[60%]`}
       >
         <div className="flex items-center justify-between gap-8 w-full">
         <motion.div
@@ -40,14 +40,34 @@ export default function Navbar() {
             style={{ objectFit: 'contain' }}
           />
         </motion.div>
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 0.3 }}
-          className="text-sm text-gray-400"
-        >
-          Coming Soon
-        </motion.div>
+        <div className="flex items-center gap-6">
+          <motion.a
+            href="#features"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 0.3 }}
+            className="text-sm text-gray-300 hover:text-white transition-colors cursor-pointer"
+          >
+            Features
+          </motion.a>
+          <motion.a
+            href="#contact"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 0.35 }}
+            className="text-sm text-gray-300 hover:text-white transition-colors cursor-pointer"
+          >
+            Contact
+          </motion.a>
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 0.4 }}
+            className="text-sm text-gray-400"
+          >
+            Coming Soon
+          </motion.div>
+        </div>
         </div>
       </motion.nav>
     </div>
