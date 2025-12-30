@@ -12,7 +12,7 @@ export default function HelpUsBuild() {
     <section 
       id="contact"
       ref={ref} 
-      className="flex items-center justify-center px-6 sm:px-8 lg:px-12 pt-[2.4rem] pb-8 md:pt-[3.6rem] md:pb-12"
+      className="flex items-center justify-center px-6 sm:px-8 lg:px-12 pt-[2.88rem] pb-8 md:pt-[4.32rem] md:pb-12"
     >
       <div className="max-w-4xl mx-auto w-full text-center">
         <motion.div
